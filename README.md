@@ -4,11 +4,13 @@ Brain Stroke Prediction using ANN Web App
 This project predicts the risk of brain stroke using an Artificial Neural Network (ANN) trained on healthcare data.
 It considers lifestyle, medical history, and demographic factors such as BMI, glucose level, hypertension, heart disease, smoking habits, and age to estimate the probability of stroke.
 
-## 🚀 Features
-- ANN model built with TensorFlow/Keras  
-- Handles class imbalance using weights  
-- Streamlit web app for user-friendly prediction  
-- Risk levels shown as **Low / Moderate / High**
+🚀**Features**
+
+- User-friendly Streamlit app for predictions
+- Inputs: Age, Sex, Hypertension, Heart Disease, Marital Status, Work Type, Residence Type, Avg Glucose, BMI, Smoking Status
+- Outputs: Predicted Stroke Risk (%) and Risk Category **(Low, Moderate, High)**
+- Handles class imbalance using weighted training
+- Lightweight ANN model for fast inference
   
 📁 **brain_stroke_risk_predictor**
  ├── train_ann_light.py      # Training script for ANN
