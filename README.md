@@ -13,17 +13,24 @@ It considers lifestyle, medical history, and demographic factors such as BMI, gl
 - Lightweight ANN model for fast inference
   
 📁 **brain_stroke_risk_predictor**
- ├── train_ann_light.py      # Training script for ANN
- ├── stroke_model_light.keras # Trained ANN model
- ├── scaler.save             # StandardScaler for input preprocessing
- ├── app.py                  # Streamlit app for predictions
- ├── stroke_data.csv         # Dataset (if included)
- ├── README.md               # Project documentation
+ - train_ann.py             # Training script for ANN
+ - stroke_model_light.keras # Trained ANN model
+ - scaler.save              # StandardScaler for input preprocessing
+ - app1.py                  # Streamlit app for predictions
+ - stroke_data.csv          # Dataset 
+ - requirements.txt         #required libraries to be installed
+ - README.md                # Project documentation
+
+📊 **Dataset**
+Source: Stroke Prediction Dataset (Kaggle)
+Target: stroke (0 = No Stroke, 1 = Stroke)
+https://www.kaggle.com/datasets/prosperchuks/health-dataset/data
+
 
 
 ▶️ **Usage**
-1. Train the Model (optional)
-python train_ann_light.py
+1. Train the Model 
+python train_ann.py
 
 3. Run the Streamlit App
 streamlit run app.py
