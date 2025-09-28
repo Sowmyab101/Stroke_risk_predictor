@@ -23,7 +23,7 @@ It considers lifestyle, medical history, and demographic factors such as BMI, gl
 
 📊 **Dataset**
 The dataset used in this project can be downloaded here:  
-[👇 Download Dataset](https://raw.githubusercontent.com/Sowmyab101/Stroke_risk_predictor/refs/heads/main/stroke_data.csvtoken=GHSAT0AAAAAADLVSMFJBM565OX3KXW6RRLU2GZJYHQ)
+[👉 Download Dataset] https://www.kaggle.com/datasets/prosperchuks/health-dataset/data
 Target: stroke (0 = No Stroke, 1 = Stroke)
 
 ▶️ **Usage**
