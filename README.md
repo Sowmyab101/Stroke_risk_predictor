@@ -22,11 +22,9 @@ It considers lifestyle, medical history, and demographic factors such as BMI, gl
  - README.md                # Project documentation
 
 📊 **Dataset**
-Source: Stroke Prediction Dataset (Kaggle)
+The dataset used in this project can be downloaded here:  
+[👇 Download Dataset](https://raw.githubusercontent.com/Sowmyab101/Stroke_risk_predictor/refs/heads/main/stroke_data.csvtoken=GHSAT0AAAAAADLVSMFJBM565OX3KXW6RRLU2GZJYHQ)
 Target: stroke (0 = No Stroke, 1 = Stroke)
-https://www.kaggle.com/datasets/prosperchuks/health-dataset/data
-
-
 
 ▶️ **Usage**
 1. Train the Model 
@@ -36,8 +34,6 @@ python train_ann.py
 streamlit run app.py
 Open in your browser:
 
-
-
 🧪 **Model Details**
 Architecture: ANN with 2 hidden layers (8 → 4 neurons)
 Activation Functions: ReLU, Sigmoid
@@ -45,7 +41,3 @@ Optimizer: Adam
 Loss: Binary Crossentropy
 Handles imbalanced dataset using class weights
 
-
-**Dataset**
-Source: Stroke Prediction Dataset (Kaggle)
-Target: stroke (0 = No Stroke, 1 = Stroke)
