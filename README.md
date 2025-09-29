@@ -41,3 +41,6 @@ Open in your browser:
 - Loss: Binary Crossentropy
 - Handles imbalanced dataset using class weights
 
+ **Try out the model:**
+ https://strokeriskpredictorwebapp.streamlit.app/
+
